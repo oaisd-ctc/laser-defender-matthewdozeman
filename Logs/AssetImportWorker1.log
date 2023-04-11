@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16243 MB
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16267 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/beedi/My project (2)
+C:/Users/mado175/Documents/GitHub/vew/laser-defender-matthewdozeman
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53550
-Successfully changed project path to: C:/Users/beedi/My project (2)
-C:/Users/beedi/My project (2)
+49217
+Successfully changed project path to: C:/Users/mado175/Documents/GitHub/vew/laser-defender-matthewdozeman
+C:/Users/mado175/Documents/GitHub/vew/laser-defender-matthewdozeman
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,110 +47,127 @@ C:/Users/beedi/My project (2)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20824] Host "[IP] 192.168.12.142 [Port] 0 [Flags] 2 [Guid] 483383354 [EditorId] 483383354 [Version] 1048832 [Id] WindowsEditor(7,computer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [344] Host "[IP] 10.10.19.243 [Port] 0 [Flags] 2 [Guid] 1112934244 [EditorId] 1112934244 [Version] 1048832 [Id] WindowsEditor(7,OA-CTC-A234-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20824] Host "[IP] 192.168.12.142 [Port] 0 [Flags] 2 [Guid] 483383354 [EditorId] 483383354 [Version] 1048832 [Id] WindowsEditor(7,computer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [344] Host "[IP] 10.10.19.243 [Port] 0 [Flags] 2 [Guid] 1112934244 [EditorId] 1112934244 [Version] 1048832 [Id] WindowsEditor(7,OA-CTC-A234-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 63.66 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 123.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.19f1 (c9714fde33b6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/beedi/My project (2)/Assets
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mado175/Documents/GitHub/vew/laser-defender-matthewdozeman/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Renderer: Radeon RX550/550 Series (ID=0x699f)
     Vendor:   ATI
-    VRAM:     8147 MB
-    Driver:   31.0.12029.10015
+    VRAM:     4040 MB
+    Driver:   30.0.21020.2
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003059 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012973 seconds.
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 439 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 115.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.452 seconds
+- Completed reload, in  1.372 seconds
 Domain Reload Profiling:
-	ReloadAssembly (453ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (1373ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (330ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (1119ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (79ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (193ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (893ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (592ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003598 seconds.
+Registered in 0.011887 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mado175\Documents\GitHub\vew\laser-defender-matthewdozeman\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mado175\Documents\GitHub\vew\laser-defender-matthewdozeman\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.863 seconds
+- Completed reload, in  0.887 seconds
 Domain Reload Profiling:
-	ReloadAssembly (864ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (696ms)
-			LoadAssemblies (60ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (380ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (228ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Failed to load shader (instanceID 396, GUID 7cbb3655339ec401ca75ba5fe26884f4)
+Failed to load shader (instanceID 398, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 400, GUID 3230fdc399f8287488325e5941a00527)
+Failed to load shader (instanceID 402, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 404, GUID 603d454d711fe784cba9ce08dd22b881)
+Failed to load shader (instanceID 406, GUID 0a8f4dcd626bcd14bbbfa5a5e116b16e)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4079 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (228.8 KB). Loaded Objects now: 4533.
-Memory consumption went from 156.0 MB to 155.8 MB.
-Total: 2.533900 ms (FindLiveObjects: 0.205100 ms CreateObjectMapping: 0.106000 ms MarkObjects: 2.106800 ms  DeleteObjects: 0.115100 ms)
+Unloading 600 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (56.0 KB). Loaded Objects now: 1069.
+Memory consumption went from 46.6 MB to 46.5 MB.
+Total: 2.486200 ms (FindLiveObjects: 0.077200 ms CreateObjectMapping: 0.020300 ms MarkObjects: 2.321800 ms  DeleteObjects: 0.066100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,65 +181,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1297270.036595 seconds.
-  path: Assets/kenney_space-shooter-redux/sample.png
+  Time since last request: 2176128.103718 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1ec584b86adc936d786dcf072fa9c6') in 0.010648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1231.403829 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/sample.png
   artifactKey: Guid(1cfc41c47cb04d14eb49fc30245fab79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_space-shooter-redux/sample.png using Guid(1cfc41c47cb04d14eb49fc30245fab79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23803db153e5c9de3482c87d452546ea') in 0.098830 seconds 
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/sample.png using Guid(1cfc41c47cb04d14eb49fc30245fab79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e501ca409f38df030493806353d9ca5') in 0.179646 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/kenney_space-shooter-redux
-  artifactKey: Guid(9b4add493f428b44280d83717bfdd9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kenney_space-shooter-redux using Guid(9b4add493f428b44280d83717bfdd9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e2bd332e9554d395e6b2168a6745e3') in 0.005227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.291184 seconds.
+  Time since last request: 4.223053 seconds.
   path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_green.png
   artifactKey: Guid(f70605d9b3300fa46a46c542dc1a4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_green.png using Guid(f70605d9b3300fa46a46c542dc1a4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe2c83107b7c12a33de2f471ac1cfd6') in 0.017320 seconds 
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_green.png using Guid(f70605d9b3300fa46a46c542dc1a4729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987ccc463d524225a994fb7ef58b2229') in 0.033137 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_green.png
-  artifactKey: Guid(4d20964bc5d3f8c41b1e43dfdddaf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_green.png using Guid(4d20964bc5d3f8c41b1e43dfdddaf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8175e774a3fbb6eb45903b005dcf66b') in 0.013570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_orange.png
-  artifactKey: Guid(b60cf52ee332668458b875b7e78748fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_orange.png using Guid(b60cf52ee332668458b875b7e78748fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15357d30a86a825b0857ffc8ec6a27e') in 0.014028 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/ufoRed.png
-  artifactKey: Guid(4ba2fe9c04146a34a897a54710f2bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/ufoRed.png using Guid(4ba2fe9c04146a34a897a54710f2bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5c0f763ffbcfd0fc2960e60b01e2cf') in 0.012460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip3_green.png
-  artifactKey: Guid(ec533456e21061b45b19971f8396b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip3_green.png using Guid(ec533456e21061b45b19971f8396b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2262b9db6d26690a701fa411d87572b6') in 0.010886 seconds 
+  Time since last request: 0.028592 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_blue.png
+  artifactKey: Guid(4b9c3eb8744d72140a6be3a6d714d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_blue.png using Guid(4b9c3eb8744d72140a6be3a6d714d01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89e93ca8b6a9074f92d9c2ce1302c63') in 0.034814 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_red.png
-  artifactKey: Guid(6c767db4d515a764e918150a07915c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_red.png using Guid(6c767db4d515a764e918150a07915c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da6bbdf3c46cb07a61b918c1687be2e') in 0.012237 seconds 
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_green.png
+  artifactKey: Guid(4d20964bc5d3f8c41b1e43dfdddaf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_green.png using Guid(4d20964bc5d3f8c41b1e43dfdddaf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36c28f57130dd4cd453ea9e1be5dce8') in 0.028341 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_red.png
-  artifactKey: Guid(33ee739866a1af54cb2559514a7c5c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_red.png using Guid(33ee739866a1af54cb2559514a7c5c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb720b9436a63f31e8b79295af2cb47') in 0.011694 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_orange.png
+  artifactKey: Guid(b60cf52ee332668458b875b7e78748fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_orange.png using Guid(b60cf52ee332668458b875b7e78748fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7d9ef1ed1c5aab26cd04cee21087b9') in 0.034380 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_orange.png
-  artifactKey: Guid(4748f8638b7b70747845692c72633151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_orange.png using Guid(4748f8638b7b70747845692c72633151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51312ebdc2ae09b913d8374fbf72ca6c') in 0.014169 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 0.002759 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/ufoRed.png
+  artifactKey: Guid(4ba2fe9c04146a34a897a54710f2bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/ufoRed.png using Guid(4ba2fe9c04146a34a897a54710f2bd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aa7cd4a27184b5ab2866cfb7a90ecf') in 0.050277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip3_blue.png
+  artifactKey: Guid(c211abd9913b83645a765132c2747f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip3_blue.png using Guid(c211abd9913b83645a765132c2747f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af9f220eabc2c145a160b634d04e1a1') in 0.033841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip3_orange.png
+  artifactKey: Guid(b9b1d387e9462ed4daecc13495d455c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip3_orange.png using Guid(b9b1d387e9462ed4daecc13495d455c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b5dde6847003b80c275d5b688c9d7e') in 0.027049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/ufoGreen.png
+  artifactKey: Guid(6cbfde2fd7a40134abe93dfc2e77aa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/ufoGreen.png using Guid(6cbfde2fd7a40134abe93dfc2e77aa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56774a265092ae4969ea0317d1c7793') in 0.042566 seconds 
