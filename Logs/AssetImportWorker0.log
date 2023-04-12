@@ -233,57 +233,49 @@ Number of asset objects unloaded after import = 0
 Received Import Request.
   Time since last request: 0.416221 seconds.
   path: Assets/Asset Packs/kenney_space-shooter-redux
-  artifactKey: Guid(9b4add493f428b44280d83717bfdd9d1) Import========================================================================
-Received Prepare
-Failed to load shader (instanceID 396, GUID 7cbb3655339ec401ca75ba5fe26884f4)
-Failed to load shader (instanceID 398, GUID bedd19944f451ba4d83e7ed69be98d5c)
-Failed to load shader (instanceID 400, GUID 3230fdc399f8287488325e5941a00527)
-Failed to load shader (instanceID 402, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 404, GUID 603d454d711fe784cba9ce08dd22b881)
-Failed to load shader (instanceID 406, GUID 0a8f4dcd626bcd14bbbfa5a5e116b16e)
-Refreshing native plugins compatible for Editor in 3.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (21.9 KB). Loaded Objects now: 1476.
-Memory consumption went from 49.1 MB to 49.1 MB.
-Total: 5.489900 ms (FindLiveObjects: 0.138100 ms CreateObjectMapping: 0.046800 ms MarkObjects: 5.245200 ms  DeleteObjects: 0.058700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  artifactKey: Guid(9b4add493f428b44280d83717bfdd9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/kenney_space-shooter-redux using Guid(9b4add493f428b44280d83717bfdd9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4606bc543bca9af0246373fd81b89e3e') in 0.008977 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Failed to load shader (instanceID 396, GUID 7cbb3655339ec401ca75ba5fe26884f4)
-Failed to load shader (instanceID 398, GUID bedd19944f451ba4d83e7ed69be98d5c)
-Failed to load shader (instanceID 400, GUID 3230fdc399f8287488325e5941a00527)
-Failed to load shader (instanceID 402, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 404, GUID 603d454d711fe784cba9ce08dd22b881)
-Failed to load shader (instanceID 406, GUID 0a8f4dcd626bcd14bbbfa5a5e116b16e)
-Refreshing native plugins compatible for Editor in 3.23 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5 unused Assets / (10.9 KB). Loaded Objects now: 1476.
-Memory consumption went from 40.7 MB to 40.7 MB.
-Total: 2.459800 ms (FindLiveObjects: 0.153900 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.239200 ms  DeleteObjects: 0.014300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-cks/kenney_space-shooter-redux/PNG/playerShip2_green.png using Guid(4d20964bc5d3f8c41b1e43dfdddaf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cae2c68c5461b87f6dac9146bf17f4') in 0.027072 seconds 
+Received Import Request.
+  Time since last request: 0.928079 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/preview.png
+  artifactKey: Guid(9597221b42b03c34d8ad39fbac4d0728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/preview.png using Guid(9597221b42b03c34d8ad39fbac4d0728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9116d64b594dda46aa647072650246f') in 0.031657 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.948362 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG
+  artifactKey: Guid(e75815b11d2edc5428483f9f49731447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG using Guid(e75815b11d2edc5428483f9f49731447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ba782961edfb92b6a4a2899ef34e80') in 0.013868 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054400 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_blue.png
+  artifactKey: Guid(5eaf55e60e6f5d542933b588f1325d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_blue.png using Guid(5eaf55e60e6f5d542933b588f1325d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7afb2f49278f3006d3e58dab0f1617') in 0.022461 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_red.png
+  artifactKey: Guid(6c767db4d515a764e918150a07915c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_red.png using Guid(6c767db4d515a764e918150a07915c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1704cd56174605153d19cdfb2e285df') in 0.026231 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_green.png
+  artifactKey: Guid(4d20964bc5d3f8c41b1e43dfdddaf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip2_green.png using Guid(4d20964bc5d3f8c41b1e43dfdddaf287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cae2c68c5461b87f6dac9146bf17f4') in 0.027072 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
@@ -325,3 +317,11 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Asset Packs/kenney_space-shooter-redux/PNG/playerShip1_orange.png using Guid(4748f8638b7b70747845692c72633151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67180681d5db0caed5fd683477c8f5bd') in 0.030304 seconds 
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1769.364438 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(36469789134343f4bac94a61348e846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(36469789134343f4bac94a61348e846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e55fe2383e46e6e8169fc8bba1c049') in 0.004782 seconds 
+Number of asset objects unloaded after import = 0
