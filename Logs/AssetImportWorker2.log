@@ -15,7 +15,7 @@ C:/Users/mado175/Documents/GitHub/vew/laser-defender-matthewdozeman
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49217
+52861
 Successfully changed project path to: C:/Users/mado175/Documents/GitHub/vew/laser-defender-matthewdozeman
 C:/Users/mado175/Documents/GitHub/vew/laser-defender-matthewdozeman
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/mado175/Documents/GitHub/vew/laser-defender-matthewdozeman
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21848] Host "[IP] 10.10.19.243 [Port] 0 [Flags] 2 [Guid] 2769494619 [EditorId] 2769494619 [Version] 1048832 [Id] WindowsEditor(7,OA-CTC-A234-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16152] Host "[IP] 10.10.19.243 [Port] 0 [Flags] 2 [Guid] 608179410 [EditorId] 608179410 [Version] 1048832 [Id] WindowsEditor(7,OA-CTC-A234-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21848] Host "[IP] 10.10.19.243 [Port] 0 [Flags] 2 [Guid] 2769494619 [EditorId] 2769494619 [Version] 1048832 [Id] WindowsEditor(7,OA-CTC-A234-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16152] Host "[IP] 10.10.19.243 [Port] 0 [Flags] 2 [Guid] 608179410 [EditorId] 608179410 [Version] 1048832 [Id] WindowsEditor(7,OA-CTC-A234-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 165.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 193.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,64 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.418574 seconds.
+Registered in 0.898703 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 502 ms
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 123.47 ms, found 1 plugins.
+Win32Exception: The operation completed successfully.
+  at System.Diagnostics.Process.Kill () [0x00018] in <111da4cba18442e7addb95bcddc21c3b>:0 
+  at (wrapper remoting-invoke-with-check) System.Diagnostics.Process.Kill()
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0014a] in <ecca7c2ff94c4afda89ca5178470b3a9>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <ecca7c2ff94c4afda89ca5178470b3a9>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <ecca7c2ff94c4afda89ca5178470b3a9>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x0008d] in <ecca7c2ff94c4afda89ca5178470b3a9>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <57a8ad0d1492436d8cfee9ba8e6618f8>:0 
+
+Refreshing native plugins compatible for Editor in 256.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.450 seconds
+- Completed reload, in 12.644 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7451ms)
-		BeginReloadAssembly (4350ms)
+	ReloadAssembly (12646ms)
+		BeginReloadAssembly (6705ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2325ms)
-			LoadAssemblies (4359ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (4206ms)
+			LoadAssemblies (6704ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1211ms)
+			SetupTypeCache (2472ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (1014ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1569ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (731ms)
+				InitializePlatformSupportModulesInManaged (1027ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (124ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (257ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
 Registering precompiled user dll's ...
-Registered in 1.104188 seconds.
+Registered in 1.809499 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\mado175\Documents\GitHub\vew\laser-defender-matthewdozeman\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\mado175\Documents\GitHub\vew\laser-defender-matthewdozeman\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,36 +132,36 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.534 seconds
+- Completed reload, in  2.557 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1536ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (2559ms)
+		BeginReloadAssembly (364ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1183ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1905ms)
+			LoadAssemblies (295ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (745ms)
+			SetupTypeCache (1057ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (248ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				InitializePlatformSupportModulesInManaged (72ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -161,13 +171,13 @@ Failed to load shader (instanceID 400, GUID 3230fdc399f8287488325e5941a00527)
 Failed to load shader (instanceID 402, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 404, GUID 603d454d711fe784cba9ce08dd22b881)
 Failed to load shader (instanceID 406, GUID 0a8f4dcd626bcd14bbbfa5a5e116b16e)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 2.19 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 600 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 4 unused Assets / (56.5 KB). Loaded Objects now: 1069.
-Memory consumption went from 46.6 MB to 46.6 MB.
-Total: 2.443600 ms (FindLiveObjects: 0.076500 ms CreateObjectMapping: 0.016700 ms MarkObjects: 2.289800 ms  DeleteObjects: 0.059800 ms)
+Memory consumption went from 46.8 MB to 46.7 MB.
+Total: 3.730900 ms (FindLiveObjects: 0.084900 ms CreateObjectMapping: 0.021500 ms MarkObjects: 3.548500 ms  DeleteObjects: 0.075000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -179,3 +189,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2262650.156952 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/Bonus/sfx_zap.ogg
+  artifactKey: Guid(3bf1f6a330fa34d42812cbccfbf23e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/Bonus/sfx_zap.ogg using Guid(3bf1f6a330fa34d42812cbccfbf23e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec679546e2b4e729ebf0dbf4fc1079f') in 0.474865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/Bonus/sfx_twoTone.ogg
+  artifactKey: Guid(12f9f7b86497a7b44adca5be937aa745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/Bonus/sfx_twoTone.ogg using Guid(12f9f7b86497a7b44adca5be937aa745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28b86fa8e8f2a0bde1035a1bd10bbd0') in 0.049951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/Bonus/sfx_lose.ogg
+  artifactKey: Guid(ba1f6fecba28a0742a2e3d3989aa8750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/Bonus/sfx_lose.ogg using Guid(ba1f6fecba28a0742a2e3d3989aa8750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5303d6f8340123f5b53cca85db75d945') in 0.027653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/Bonus/sfx_laser1.ogg
+  artifactKey: Guid(87d5f8d27c47a5d4bbc2d08a006faa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/Bonus/sfx_laser1.ogg using Guid(87d5f8d27c47a5d4bbc2d08a006faa97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f01ef619d5f386e1343e46b704508') in 0.031012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asset Packs/kenney_space-shooter-redux/Backgrounds/black.png
+  artifactKey: Guid(c56560aa8bbd86742a39dc7f64079af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/kenney_space-shooter-redux/Backgrounds/black.png using Guid(c56560aa8bbd86742a39dc7f64079af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa0591c29f1a99c435a2d9b1d6d725d') in 0.090995 seconds 
