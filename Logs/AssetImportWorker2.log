@@ -219,3 +219,53 @@ Received Import Request.
   path: Assets/Asset Packs/kenney_space-shooter-redux/Backgrounds/black.png
   artifactKey: Guid(c56560aa8bbd86742a39dc7f64079af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Asset Packs/kenney_space-shooter-redux/Backgrounds/black.png using Guid(c56560aa8bbd86742a39dc7f64079af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa0591c29f1a99c435a2d9b1d6d725d') in 0.090995 seconds 
+========================================================================
+Received Prepare
+Failed to load shader (instanceID 396, GUID 7cbb3655339ec401ca75ba5fe26884f4)
+Failed to load shader (instanceID 398, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 400, GUID 3230fdc399f8287488325e5941a00527)
+Failed to load shader (instanceID 402, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 404, GUID 603d454d711fe784cba9ce08dd22b881)
+Failed to load shader (instanceID 406, GUID 0a8f4dcd626bcd14bbbfa5a5e116b16e)
+Refreshing native plugins compatible for Editor in 4.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (21.9 KB). Loaded Objects now: 1439.
+Memory consumption went from 48.7 MB to 48.7 MB.
+Total: 3.684200 ms (FindLiveObjects: 0.117000 ms CreateObjectMapping: 0.038000 ms MarkObjects: 3.481300 ms  DeleteObjects: 0.046100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Failed to load shader (instanceID 396, GUID 7cbb3655339ec401ca75ba5fe26884f4)
+Failed to load shader (instanceID 398, GUID bedd19944f451ba4d83e7ed69be98d5c)
+Failed to load shader (instanceID 400, GUID 3230fdc399f8287488325e5941a00527)
+Failed to load shader (instanceID 402, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 404, GUID 603d454d711fe784cba9ce08dd22b881)
+Failed to load shader (instanceID 406, GUID 0a8f4dcd626bcd14bbbfa5a5e116b16e)
+Refreshing native plugins compatible for Editor in 3.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (11.0 KB). Loaded Objects now: 1439.
+Memory consumption went from 40.3 MB to 40.3 MB.
+Total: 2.315100 ms (FindLiveObjects: 0.105300 ms CreateObjectMapping: 0.033700 ms MarkObjects: 2.161300 ms  DeleteObjects: 0.014100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
