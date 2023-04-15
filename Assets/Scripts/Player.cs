@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     Vector2 minBounds;
     Vector2 maxBounds;
 
+
     void Start()
     {
         InitBounds();
