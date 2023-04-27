@@ -13,17 +13,14 @@ public class WaveConfigSO : ScriptableObject
     {
         return enemyPrefabs.Count;
     }
-
     public Transform GetStartingWaypoint()
     {
         return pathPrefab.GetChild(0);
     }
-
     public GameObject GetEnemyPrefab(int index)
     {
         return enemyPrefabs[index];
     }
-
     public List<Transform> GetWaypoints()
     {
         List<Transform> waypoints = new List<Transform>();
@@ -33,7 +30,6 @@ public class WaveConfigSO : ScriptableObject
         }
         return waypoints;
     }
-
     public float GetMoveSpeed()
     {
         return moveSpeed;
